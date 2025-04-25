@@ -53,8 +53,10 @@
   } 
 
   #carousel4img {
-    max-width: 1024px; /* Ajusta este valor al ancho máximo deseado */
-    margin: 0 auto; /* Opcional: centra el carrusel horizontalmente si es más pequeño que su contenedor padre */
+    max-width: 1200px; /* Ajusta este valor al ancho máximo deseado */
+    /*margin: 0 auto;  Opcional: centra el carrusel horizontalmente si es más pequeño que su contenedor padre */
+    padding-top: 20px;
+    margin: 0 auto;
   } 
 
 
@@ -124,3 +126,22 @@
     font-style: normal;
     font-size: 24px;
     /* padding-left: 15%; */
+
+  .footer-title {
+    font-family: "cabin", bold;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    /* padding-left: 15%; */
+
+  }
+
+  .font-family: {
+
+  font-family: "cabin", regular;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  /* padding-left: 15%; */
+
+  }
