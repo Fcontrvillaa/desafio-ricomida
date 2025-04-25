@@ -26,3 +26,10 @@
 .recipe {
     padding-top: 20px;
 }
+.plato {
+    align-items: flex-end;
+}
+
+.col-md-6.container-fluid {
+    max-width: 30%; /* Ejemplo: limita el ancho al 50% de su contenedor padre */
+  }
