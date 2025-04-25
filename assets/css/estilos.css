@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lobster&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    background-color: #373A3C;
+    /* padding-top: 10px; */
+}
+
+.navbar-brand {
+    
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    
+
+
+}
