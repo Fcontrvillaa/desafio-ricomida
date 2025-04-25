@@ -31,5 +31,96 @@
 }
 
 .col-md-6.container-fluid {
-    max-width: 30%; /* Ejemplo: limita el ancho al 50% de su contenedor padre */
+    max-width: 30%; /* limita el ancho  de su contenedor padre */
+
   }
+
+.texto-limitado {
+    max-width: 50%; /* porcentaje según el margen derecho  */
+    color: #373A3C;
+    font-family: "cabin", bold;
+    font-weight: 700;
+    font-style: normal;
+    /* font-size: 46px;
+    padding-left: 15%; */
+        
+}
+
+ 
+.carousel-item .d-flex img {
+    /* max-width: 150px; */
+    margin: 10px; /* Ajusta este valor según el tamaño del margen que desees */
+  } 
+
+  #carousel4img {
+    max-width: 1024px; /* Ajusta este valor al ancho máximo deseado */
+    margin: 0 auto; /* Opcional: centra el carrusel horizontalmente si es más pequeño que su contenedor padre */
+  } 
+
+
+  
+  
+
+
+
+  
+  #carousel4img .carousel-indicators {
+    position: absolute;
+    bottom: -10px; /* Ajusta la distancia desde la parte inferior */
+    left: 50%; */
+    transform: translateX(-50%); /* Centra horizontalmente los indicadores */
+    /* display: flex; */
+    justify-content: center;
+    margin-bottom: 0;  /*Elimina el margen inferior predeterminado */
+  }
+  
+  #carousel4img .carousel-indicators button {
+    border: 0;
+    border-radius: 50%; /* Los hace circulares (puntos) */
+    width: 15px; /* Ajusta el tamaño del punto */
+    height: 15px; /* Ajusta el tamaño del punto */
+    margin: 0 5px; /* Espacio entre los puntos */
+    background-color: rgba(0, 0, 0, 0.5); /* Color de los puntos inactivos */
+    opacity: 0.5; /* Opacidad de los puntos inactivos */
+    transition: opacity 0.3s ease;
+    
+  }
+  
+  #carousel4img .carousel-indicators .active {
+    
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.9); /* Color del punto activo (más oscuro) */
+  }
+
+
+  .ingredientes {
+    max-width: 80%; /* porcentaje según el margen derecho  */
+    color: #373A3C;
+    font-family: "cabin", bold;
+    font-weight: 400;
+    /* font-style: normal; */
+    /* font-size: 46px;
+    padding-left: 15%; */
+  }
+
+
+
+
+
+  .form {
+    background-color: #DC3545;
+    color: white;
+    padding: 20px;
+    margin-left: auto;
+    text-align: center;
+    font-size: 2em;
+    
+  }
+
+  .brand {
+    
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    /* padding-left: 15%; */
