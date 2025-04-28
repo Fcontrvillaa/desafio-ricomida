@@ -13,9 +13,13 @@ const myModal = document.getElementById('myModal')
 const myInput = document.getElementById('myInput')
 
 
+$('#btn1').click(function() {
+   alert("El correo fue enviado correctamente...")
+})
+  
 
 
-// $('#btn').click(funcion(){
+//$('#btn').click(funcion(){
 //     alert("boton cliqueado")
 // })
 
