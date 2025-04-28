@@ -28,6 +28,7 @@
 }
 .plato {
     align-items: flex-end;
+    padding-top: 50px;
 }
 
 .col-md-6.container-fluid {
@@ -36,13 +37,15 @@
   }
 
 .texto-limitado {
-    max-width: 50%; /* porcentaje según el margen derecho  */
-    color: #373A3C;
+    max-width: 70%;  /* porcentaje según el margen derecho  */
+    color: #3c373c;
     font-family: "cabin", bold;
     font-weight: 700;
     font-style: normal;
-    /* font-size: 46px;
-    padding-left: 15%; */
+    /* font-size: 46px;*/
+    padding-left: 5px; 
+    padding-top: 50px;
+    font-optical-sizing: auto;
         
 }
 
@@ -73,7 +76,7 @@
     transform: translateX(-50%); /* Centra horizontalmente los indicadores */
     /* display: flex; */
     justify-content: center;
-    margin-bottom: 0;  /*Elimina el margen inferior predeterminado */
+    /*margin-bottom: 0;  /*Elimina el margen inferior predeterminado */
   }
   
   #carousel4img .carousel-indicators button {
@@ -135,7 +138,7 @@
     /* padding-left: 15%; */
 
   }
-
+  /*
   .font-family: {
 
   font-family: "cabin", regular;
