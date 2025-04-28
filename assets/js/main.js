@@ -16,7 +16,14 @@ const myInput = document.getElementById('myInput')
 $('#btn1').click(function() {
    alert("El correo fue enviado correctamente...")
 })
-  
+
+$(document).ready(function() {
+    $("u").on("dblclick", function() {
+        if ($(this).text() === "INGREDIENTES" || $(this).text() === "PREPARACIÓN ") {
+            $(this).css("color", "red");
+        }
+    });
+});
 
 
 //$('#btn').click(funcion(){

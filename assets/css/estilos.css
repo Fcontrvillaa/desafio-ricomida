@@ -56,20 +56,15 @@
   } 
 
   #carousel4img {
-    max-width: 1200px; /* Ajusta este valor al ancho máximo deseado */
-    /*margin: 0 auto;  Opcional: centra el carrusel horizontalmente si es más pequeño que su contenedor padre */
+    max-width: 1200px; /* ancho máximo  */
+    margin: 0 auto;  
     padding-top: 20px;
     margin: 0 auto;
   } 
 
 
   
-  
-
-
-
-  
-  #carousel4img .carousel-indicators {
+ #carousel4img .carousel-indicators {
     position: absolute;
     bottom: -10px; /* Ajusta la distancia desde la parte inferior */
     left: 50%; */
@@ -109,6 +104,29 @@
   }
 
 
+  .r-relacionadas {
+    font-family: "cabin", bold;
+    font-weight: 400;
+    color: #373A3C;
+
+  }
+
+
+  .cards {
+    justify-content: center;
+  }
+
+  .box {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-family: "cabin", bold;
+    color: #212529;
+  }
+
+
+
+
 
 
 
@@ -129,6 +147,7 @@
     font-style: normal;
     font-size: 24px;
     /* padding-left: 15%; */
+  }
 
   .footer-title {
     font-family: "cabin", bold;
@@ -146,5 +165,3 @@
   font-style: normal;
   font-size: 24px;
   /* padding-left: 15%; */
-
-  }
