@@ -25,6 +25,13 @@ $(document).ready(function() {
     });
 });
 
+$('.card-title').click(function(){
+    $('.box').toggle()
+
+})
+
+
+
 
 //$('#btn').click(funcion(){
 //     alert("boton cliqueado")
